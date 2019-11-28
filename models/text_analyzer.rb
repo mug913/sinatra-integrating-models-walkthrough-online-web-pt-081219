@@ -2,7 +2,7 @@
 class TextAnalyzer
   attr_reader :text
 
-  def initalize(text)
+  def initialize(text)
     @text = text.downcase
   end
 
